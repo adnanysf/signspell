@@ -1,7 +1,6 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     /* padding: 6rem; */
     min-height: 200vh;
@@ -50,4 +49,31 @@
   }
   .link2:hover, .link:hover, .but:hover, .but2:hover{
     transform: scale(1.1);
+  }
+
+  .content{
+    width: 80%;
+  }
+  .do {
+    border-radius: 25px;
+    height: 400px;
+    background-color: #E6EAEE;
+    border: #BDC1C5 1px solid;
+  }
+  .words{
+    margin: 10px;
+    height: 50px;
+    background: linear-gradient(to left, #8B5CF6 0%, #5C6AC4 100%);
+    border-radius: 25px;
+    text-align: center;
+  }
+  .word {
+    color: #8F98F7;
+    width: 90%;
+    text-align: center;
+    align-self: center;
+    border: 1px solid red;
+  }
+  .words, .content, .main, .nav {
+    padding: 20px;
   }

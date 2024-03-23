@@ -18,6 +18,13 @@ export default function Home() {
                 {/* <Link className={styles.link} href='/'>Word Signing</Link> */}
             </div>
         </div>
+
+        <div className={styles.content}>
+            <div className={styles.do}></div>
+            <div className={styles.words}>
+                <p className={styles.word}>mewsdksjflsjdfkjsljflskdjfklsjflksjdkfljslkfjslkdjfklsdjflskfjlksdjflsjdflksjdlfjslfjslkjflksdjflsjflskdjlfksjdlfjslkdjflsdjlfsdjlsdkjflksjfo</p>
+            </div>
+        </div>
     </div>
   );
 }

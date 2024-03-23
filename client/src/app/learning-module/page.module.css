@@ -1,7 +1,7 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     /* padding: 6rem; */
     min-height: 200vh;
@@ -30,7 +30,6 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
   }
-
   .links{
     font-size: 20px;
     display: flex;
@@ -50,4 +49,14 @@
   }
   .link2:hover, .link:hover, .but:hover, .but2:hover{
     transform: scale(1.1);
+  }
+
+  .content{
+    width: 100%;
+    columns: 2;
+    flex-direction: column;
+  }
+  .learn, .do, .content, .main, .nav {
+    border: 1px solid #8B5CF6;
+    padding: 20px;
   }
