@@ -9,7 +9,7 @@ export default function Home() {
         <div className={styles.nav}>
           <div className={styles.logo}>
   
-          </div>
+        </div>
           <div className={styles.links}>
             <div className={styles.link}>Learning Modules</div>
             <div className={styles.link}>Letter Signing</div>

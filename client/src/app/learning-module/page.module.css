@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6rem; */
+    min-height: 200vh;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    height: 10%;
+    margin-bottom: 3%;
+    /* border: 1px solid red; */
+  }
+  
+  .logo{
+    margin: 15px;
+    font-size: 68px;
+    font-weight: bold;
+
+    background-color: #5C6AC4;
+    background-image: linear-gradient(to left, #8B5CF6 0%, #5C6AC4 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+  
+  .links{
+    font-size: 20px;
+    display: flex;
+    gap: 10%;   
+    width: 40%;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #BDC1C5;
+    /* border: 1px solid red; */
+  }
+  .link2{
+    font-weight: bold;
+    color:#8B5CF6
+  }
+  .link2:hover, .link:hover, .but:hover, .but2:hover{
+    transform: scale(1.1);
+  }
