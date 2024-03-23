@@ -6,11 +6,15 @@ export default function Home() {
     <div className={styles.main}>
         <div className={styles.nav}>
             <div className={styles.logo}>
-                <div className={styles.logo}>SignSpell</div>
+                <div className={styles.logo}>
+                    <Link href='/'>
+                        SignSpell
+                    </Link>
+                </div>
             </div>
             <div className={styles.links}>
-                <Link className={styles.link2} href='/learning-module'>Learning Modules</Link>
-                <Link className={styles.link} href='/letter-signing'>Letter Signing</Link>
+                <Link className={styles.link} href='/learning-module'>Learning Modules</Link>
+                <Link className={styles.link2} href='/letter-signing'>Letter Signing</Link>
                 {/* <Link className={styles.link} href='/'>Word Signing</Link> */}
             </div>
         </div>
