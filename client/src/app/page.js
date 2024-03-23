@@ -11,16 +11,16 @@ export default function Home() {
   
           </div>
           <div className={styles.links}>
-            <div className={styles.link}>Home</div>
-            <div className={styles.link}>About</div>
-            <div className={styles.link}>Contact</div>
+            <div className={styles.link}>Learning Modules</div>
+            <div className={styles.link}>Letter Signing</div>
+            <div className={styles.link}>Word Signing</div>
           </div>
         </div>
         <div className={styles.topcont} >
           <h1 className={styles.title}>SignSpell</h1>
           <div className={styles.buttons}>
-            <div className={styles.but}>Learn More</div>
-            <div className={styles.but}>Play</div>
+            <div className={styles.but}>Learn ASL</div>
+            <div className={styles.but2}>Play now!</div>
           </div>
         </div>
         
