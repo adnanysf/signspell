@@ -4,7 +4,8 @@
   justify-content: space-between;
   align-items: center;
   /* padding: 6rem; */
-  min-height: 200vh;
+  height: 300vh;
+  overflow-y: auto;
 }
 
 .toppage{
@@ -55,10 +56,9 @@
 
 .botpage{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  height: 100vh;
+  height: 200vh;
   background-color: #5C6AC4;
   width: 100%;
 }
@@ -104,3 +104,105 @@
   transform: scale(1.1);
 }
 
+
+.scroll{
+  width: 15%;
+  /* background-color: red; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.line{
+  border-left: 2px solid white;
+  height: 80%;
+}
+
+.botContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+  color: white;
+}
+
+.botA{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  width: 90%;
+  height: 45%;
+  padding: 2%;
+  /* background-color: red; */
+  /* border: 1px solid red; */
+  gap: 5%;
+}
+
+.botCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  /* border: 1px solid red; */
+  text-align: center;
+  gap: 10%;
+}
+
+.botPhoto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  background-color: #F0F4F8;
+  
+  box-shadow: 5px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.botTitle > h1{
+  font-size: 50px;
+}
+
+.botBut{
+  display: flex;
+  /* border: 1px solid green; */
+  width: 100%;
+  justify-content: right;
+  padding-right: 5%;
+  height: 20%;
+  align-self: center;
+  align-items: center;
+}
+
+.realBut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 30%;
+  background-color: #F0F4F8;
+  color: #5C6AC4;
+  font-weight: 700;
+  border-radius: 75px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.realBut:hover{
+  transform: scale(1.1);
+}
+
+.botText p{
+  font-size: 20px;
+  font-weight: 100;
+  /* color: red; */
+}
