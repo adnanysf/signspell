@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.topcont} >
           <h1 className={styles.title}>SignSpell</h1>
           <div className={styles.buttons}>
-            <div className={styles.but}>Learn More</div>
+            <div className={styles.butASL}>Learn ASL</div>
             <div className={styles.but}>Play</div>
           </div>
         </div>
