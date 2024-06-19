@@ -19,5 +19,19 @@
 .links{
   display: flex;
   gap: 10%;
-  width: 20%;
+  width: 40%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.link{
+  font-size: 1.1rem;
+}
+.link:hover{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.activelink{
+  font-size: 1.1rem;
+  color: #8B5CF6;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); */
 }

@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.main}>
 
       <div className={styles.toppage}>
-        <Navbar />
+        <Navbar page={"Home"}/>
         <div className={styles.topcont} >
           <h1 className={styles.title}>SignSpell</h1>
           <div className={styles.buttons}>
