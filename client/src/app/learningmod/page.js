@@ -23,11 +23,9 @@ export default function Page() {
                     justifyContent: 'center',
                     alignItems: 'center',
                     gap: '5%',
-                    // border: '1px solid black',
                 }
             }>  
                 <Block/>
-
             </div>
         </div>
     )
