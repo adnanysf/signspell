@@ -1,6 +1,8 @@
 'use client'
 import Navbar from "../components/Navbar"
-
+import Block from "../components/learningblock/block";
+import styles from "./page.module.css";
+import Link from 'next/link'
 
 export default function Page() {
 
@@ -14,7 +16,19 @@ export default function Page() {
         
         }>
             <Navbar page={"LearningModule"}/>
-            <h1>Learning Module</h1>
+            <div style={
+                {
+                    height: '90%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    gap: '5%',
+                    // border: '1px solid black',
+                }
+            }>  
+                <Block/>
+
+            </div>
         </div>
     )
 
