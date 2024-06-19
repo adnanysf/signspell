@@ -20,14 +20,15 @@
   display: flex;
   gap: 10%;
   width: 40%;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  color: #333333;
+  text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 .link{
   font-size: 1.1rem;
 }
 .link:hover{
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
 }
 
 .activelink{
