@@ -1,8 +1,15 @@
+'use client';
 import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "./components/Navbar";
+import { useRef } from 'react';
 
 export default function Home() {
+  const myRef = useRef(null);
+
+  function scrollToBottom() {
+    myRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <div className={styles.main}>
 
@@ -11,13 +18,13 @@ export default function Home() {
         <div className={styles.topcont} >
           <h1 className={styles.title}>SignSpell</h1>
           <div className={styles.buttons}>
-            <div className={styles.butASL}>Learn ASL</div>
+            <div className={styles.butASL} onClick={scrollToBottom}>Learn ASL</div>
             <div className={styles.but}>Play</div>
           </div>
         </div>
         
       </div>
-      <div className={styles.botpage}>
+      <div className={styles.botpage} ref={myRef}> 
         <div className={styles.scroll}>
 
           <div className={styles.line}> </div>
