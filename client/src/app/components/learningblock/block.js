@@ -2,7 +2,7 @@
 
 
 
-export default function Block() {
+export default function Block(props) {
     return(
         <div style={{
             display: 'flex',

@@ -1,0 +1,118 @@
+{
+
+    "info" : 
+        [
+            {
+                "left" : "What is Sign Language?",
+                "right" : "Sign language is a visual language that uses hand shapes, facial expressions, gestures and body language. It is used by people who are deaf or hard of hearing to communicate with others. Press next to learn what letters correspond to what hand shapes."
+            },
+            {
+                "left" : "A",
+                "right": "a.png"
+            },
+            {
+                "left" : "B",
+                "right": "b.png"
+            },
+            {
+                "left" : "C",
+                "right": "c.png"
+            },
+            {
+                "left" : "D",
+                "right": "d.png"
+            },
+            {
+                "left" : "E",
+                "right": "e.png"
+            },
+            {
+                "left" : "F",
+                "right": "f.png"
+            },
+            {
+                "left" : "G",
+                "right": "g.png"
+            },
+            {
+                "left" : "H",
+                "right": "h.png"
+            },
+            {
+                "left" : "I",
+                "right": "i.png"
+            },
+            {
+                "left" : "J",
+                "right": "j.png"
+            },
+            {
+                "left" : "K",
+                "right": "k.png"
+            },
+            {
+                "left" : "L",
+                "right": "l.png"
+            },
+            {
+                "left" : "M",
+                "right": "m.png"
+            },
+            {
+                "left" : "N",
+                "right": "n.png"
+            },
+            {
+                "left" : "O",
+                "right": "o.png"
+            },
+            {
+                "left" : "P",
+                "right": "p.png"
+            },
+            {
+                "left" : "Q",
+                "right": "q.png"
+            },
+            {
+                "left" : "R",
+                "right": "r.png"
+            },
+            {
+                "left" : "S",
+                "right": "s.png"
+            },
+            {
+                "left" : "T",
+                "right": "t.png"
+            },
+            {
+                "left" : "U",
+                "right": "u.png"
+            },
+            {
+                "left" : "V",
+                "right": "v.png"
+            },
+            {
+                "left" : "W",
+                "right": "w.png"
+            },
+            {
+                "left" : "X",
+                "right": "x.png"
+            },
+            {
+                "left" : "Y",
+                "right": "y.png"
+            },
+            {
+                "left" : "Z",
+                "right": "z.png"
+            }
+            
+        ]
+    
+
+
+}
